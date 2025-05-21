@@ -1,0 +1,45 @@
+.navbar {
+  width: 100%;
+  background: rgba(47, 74, 59, 1);
+  height: 100px;
+  padding: auto 100px;
+}
+.nav-padding {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  gap: 300px;
+}
+.nav-links-div {
+  display: flex;
+  width: 30.5rem;
+  height: 2.75rem;
+  align-items: center;
+  gap: 2.1875rem;
+}
+.nav-links {
+  color: #fff;
+  font-family: Lato;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.nav-booking-div {
+  display: flex;
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.625rem;
+  background: #c9a438;
+}
+.nav-booking-div p {
+  color: #000;
+  font-family: Lato;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
