@@ -25,8 +25,8 @@ export default function HomeCtc() {
       >
         <SwiperSlide>
           <Image
-            src="/images/massage3.png"
-            alt=""
+            src="/images/massage3-.png"
+            alt="spa image"
             className="homectc-image"
             height={750}
             width={1280}
@@ -41,7 +41,7 @@ export default function HomeCtc() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/massage1.png"
+            src="/images/massage1-.png"
             alt=""
             className="homectc-image"
             height={750}
@@ -56,7 +56,7 @@ export default function HomeCtc() {
           </div>
         </SwiperSlide>
         <SwiperSlide><Image
-            src="/images/massage2.png"
+            src="/images/massage2-.png"
             alt=""
             className="homectc-image"
             height={750}
@@ -70,7 +70,7 @@ export default function HomeCtc() {
             </p>
           </div></SwiperSlide>
         <SwiperSlide><Image
-            src="/images/massage4.png"
+            src="/images/massage4-.png"
             alt=""
             className="homectc-image"
             height={750}
@@ -84,7 +84,7 @@ export default function HomeCtc() {
             </p>
           </div></SwiperSlide>
         <SwiperSlide><Image
-            src="/images/massage5.png"
+            src="/images/massage5-.png"
             alt=""
             className="homectc-image"
             height={750}
