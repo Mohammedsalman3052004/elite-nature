@@ -1,0 +1,75 @@
+.our-therapy-container {
+  position: relative;
+}
+.our-therapy-background {
+  width: 19.6625rem;
+  height: 25.52325rem;
+  transform: rotate(-4.951deg);
+  flex-shrink: 0;
+  border-radius: 1.46256rem;
+  background: #2f4a3b;
+  position: absolute;
+  z-index: -1;
+}
+.our-therapy-foreground {
+  width: 20.14988rem;
+  height: 24.132rem;
+  flex-shrink: 0;
+  border-radius: 1.59288rem;
+  background: #c9a438;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.our-therapy-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.our-therapy-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.7rem;
+}
+.our-therapy-content-heading {
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.our-therapy-content-description {
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.our-therapy-content-pricing {
+  display: flex;
+  width: 8.75rem;
+  height: 1.4375rem;
+  padding: 0.25rem 0.4375rem 0.3125rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0rem 0.625rem;
+  background: #2f4a3b;
+}
+.our-therapy-content-pricing p {
+  color: #fff;
+  text-align: justify;
+  font-family: Lato;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

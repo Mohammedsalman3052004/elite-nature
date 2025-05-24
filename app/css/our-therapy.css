@@ -1,0 +1,34 @@
+.our-therapy-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+.our-therapy .swiper {
+  height: calc(80vh - 100px);
+}
+.our-therapy-heading {
+  color: #2f4a3b;
+  text-align: center;
+  font-family: Lato;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.our-therapy-slide {
+  width: 388px !important;
+}
+.our-therapy-swiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+.our-therapy-swiper .swiper-slide {
+  flex-shrink: 0;
+  height: 400px !important;
+  background-color: transparent !important;
+}
+.our-therapy-slide {
+  height: calc(80vh - 100px);
+  height: 500px !important;
+}

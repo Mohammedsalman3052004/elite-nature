@@ -19,7 +19,6 @@ body {
   height: calc(100vh - 100px);
 }
 .swiper-slide {
-  /* text-align: center; */
   font-size: 18px;
   background: #fff;
   display: flex;
@@ -69,5 +68,6 @@ body {
   font-weight: 700;
   line-height: normal;
   width: 30%;
-  /* margin-left: 15rem; */
 }
+
+

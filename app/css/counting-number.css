@@ -1,0 +1,42 @@
+.counting-number-section {
+  padding: 6.25rem 4.06rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counting-number {
+  display: flex;
+  /* width: 71.875rem; */
+  width: 80vw;
+  height: 12.5rem;
+  padding: 1.5625rem 4.3125rem 1.9375rem 4.3125rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.625rem;
+  border-radius: 0rem 1.875rem;
+  background: #2f4a3b;
+}
+.counting-number-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.625rem;
+}
+.numbers {
+  color: #fff;
+  font-family: Lato;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.counting-number-text {
+  color: #c9a438;
+  font-family: Lato;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
