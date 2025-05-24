@@ -14,6 +14,7 @@ export default function HomeCtc() {
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
+        loop={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -25,7 +26,7 @@ export default function HomeCtc() {
       >
         <SwiperSlide>
           <Image
-            src="/images/massage3-.png"
+            src="/images/massage3.png"
             alt="spa image"
             className="homectc-image"
             height={750}
@@ -41,7 +42,7 @@ export default function HomeCtc() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/massage1-.png"
+            src="/images/massage1.png"
             alt=""
             className="homectc-image"
             height={750}
@@ -56,7 +57,7 @@ export default function HomeCtc() {
           </div>
         </SwiperSlide>
         <SwiperSlide><Image
-            src="/images/massage2-.png"
+            src="/images/massage2.png"
             alt=""
             className="homectc-image"
             height={750}
@@ -70,7 +71,7 @@ export default function HomeCtc() {
             </p>
           </div></SwiperSlide>
         <SwiperSlide><Image
-            src="/images/massage4-.png"
+            src="/images/massage4.png"
             alt=""
             className="homectc-image"
             height={750}
@@ -84,7 +85,7 @@ export default function HomeCtc() {
             </p>
           </div></SwiperSlide>
         <SwiperSlide><Image
-            src="/images/massage5-.png"
+            src="/images/massage5.png"
             alt=""
             className="homectc-image"
             height={750}

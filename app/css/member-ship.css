@@ -1,0 +1,129 @@
+.membership {
+    margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.75rem;
+}
+.membership-heading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.81rem;
+}
+.membership-heading p {
+  color: #0b3e0d;
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.membership-heading h3 {
+  color: #000;
+  font-family: Lato;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.membership-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+.membership-card {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  /* height: 43.75rem; */
+  padding: 2.3125rem 2.75rem;
+  align-items: center;
+  border-radius: 1.875rem;
+  border: 2px solid #376c3e;
+  gap: 2rem;
+}
+.membership-card-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.membership-card-heading-text {
+  color: #000;
+  font-family: Lato;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.membership-card-heading-subtext {
+  color: #000;
+  font-family: Lato;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.membership-card-heading-price {
+  color: #000;
+  font-family: Lato;
+  font-size: 2.60419rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.membership-card-heading-time {
+  color: #000;
+  font-family: Lato;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.membership-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5625rem;
+  align-self: stretch;
+}
+.membership-card-content-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.78rem;
+}
+.membership-card-content-text-para {
+  color: #000;
+  font-family: Lato;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.membership-card-content-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.membership-card-content-btn {
+  display: flex;
+  width: 15.625rem;
+  height: 2.1875rem;
+  padding: 0.5rem 5.5625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.625rem;
+  background: #0b3e0d;
+  color: #fff;
+  font-family: Lato;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
