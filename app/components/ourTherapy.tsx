@@ -127,7 +127,7 @@ const ourTherapyRow2 = [
   },
 ];
 
-const OurTherapy = () => {
+const OurTherapy = () => { 
   return (
     <div className="main our-therapy">
       <div className="title">Our Therapy</div>

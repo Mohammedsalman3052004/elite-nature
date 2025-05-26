@@ -26,11 +26,17 @@ const OurPricing = () => {
             <p className="our-pricing-content-subheading">Head Relax Massage</p>
             <p className="our-pricing-content-subheading">Foot Reflexology </p>
             <p className="our-pricing-content-subheading">
+              Shoulder Pain Massage
+            </p>
+            <p className="our-pricing-content-subheading hidden mb:block">
               Back, Head, Shoulder Pain Massage
             </p>
-            <p className="our-pricing-content-subheading">Steam Bath</p>
-            <p className="our-pricing-content-subheading">
+            <p className="our-pricing-content-subheading mt-3">Steam Bath</p>
+            <p className="our-pricing-content-subheading hidden mb:block">
               Scrub Massage (Fruit, Chocolate, Coffee, Sea Salt)
+            </p>
+            <p className="our-pricing-content-subheading">
+              Scrub Massage
             </p>
           </div>
           <div className="our-pricing-column2">

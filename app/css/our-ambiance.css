@@ -4,3 +4,35 @@
 .our-ambiance .swiper{
   height: calc(70vh - 100px);
 }
+
+
+
+
+/* Professional mobile override for Swiper in Our Ambiance section */
+@media (max-width: 768px) {
+  .our-ambiance .swiper {
+    height: 250px !important;        /* Reduce overall swiper height */
+    width: 100% !important;          /* Full width on mobile */
+  }
+
+  .our-ambiance .swiper-slide {
+    width: 100% !important;           /* Slide width with padding */
+    height: 100% !important;         /* Match swiper height */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .ambiance-image {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 8px !important;
+  }
+
+  .our-ambiance .title {
+    font-size: 1.4rem !important;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+  }
+}
