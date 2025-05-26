@@ -7,7 +7,7 @@
 }
 .our-therapy .swiper {
   height: calc(80vh - 100px);
-  height: ;
+  /* height: 100%; */
 }
 .our-therapy-heading {
   color: #2f4a3b;
@@ -26,7 +26,7 @@
 }
 .our-therapy-swiper .swiper-slide {
   flex-shrink: 0;
-  height: 400px !important;
+  height: 450px !important;
   background-color: transparent !important;
 }
 .our-therapy-slide {
