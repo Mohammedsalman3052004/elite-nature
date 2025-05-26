@@ -3,7 +3,7 @@ import "../css/our-pricing.css";
 
 const OurPricing = () => {
   return (
-    <div className="main">
+    <div className="mainn">
       <div className="our-pricing">
         <div className="our-pricing-heading">
           <div className="our-pricing-heading-text">Our Prices</div>
@@ -61,10 +61,16 @@ const OurPricing = () => {
             <p className="our-pricing-content-subheading">₹3500</p>
             <p className="our-pricing-content-subheading">-</p>
             <p className="our-pricing-content-subheading">-</p>
-            <p className="our-pricing-content-subheading">-</p>p 
+            <p className="our-pricing-content-subheading">-</p>
             <p className="our-pricing-content-subheading">-</p>
             <p className="our-pricing-content-subheading">-</p>
           </div>
+        </div>
+        <div className="our-pricing-sub-content">
+          <p className="our-pricing-sub-content-text">
+            Note : We Have 2Hours, 4Hours and 6 Hours Massage Therapy Packages
+            also Available here.
+          </p>
         </div>
       </div>
     </div>
