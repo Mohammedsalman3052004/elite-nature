@@ -1,10 +1,16 @@
+.mainn {
+  padding: 5rem;
+}
 .our-pricing {
   padding: 5rem 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3.12rem;
-  background-color: black;
+  background-image: url("/images/pricing_bg.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
 }
 .our-pricing-heading-text {
   color: #c9a438;
@@ -31,22 +37,40 @@
   font-weight: 400;
   line-height: normal;
 }
-.our-pricing-content{
-    display: flex;
-    gap: 3.12rem;
+.our-pricing-content {
+  display: flex;
+  gap: 3.12rem;
 }
-.our-pricing-column1{
-    display: flex;
-    flex-direction: column;
-    gap: 2.19rem;
+.our-pricing-column1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.19rem;
 }
-.our-pricing-column2{
-    display: flex;
-    flex-direction: column;
-    gap: 2.19rem;
+.our-pricing-column2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.19rem;
+  justify-content: center;
+  align-items: center;
 }
-.our-pricing-column3{
-    display: flex;
-    flex-direction: column;
-    gap: 2.19rem;
+.our-pricing-column3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.19rem;
+  justify-content: center;
+  align-items: center;
+}
+.our-pricing-sub-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-pricing-sub-content-text {
+  color: #c9a438;
+  font-family: Lato;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 53.75rem;
 }
