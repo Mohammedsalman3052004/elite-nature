@@ -12,6 +12,7 @@ const Footer = () => {
           alt="logo"
           height={177}
           width={204}
+          className="footer-logo"
         />
         <p className="footer-description">
           "Dedicated to holistic wellness and personalized care. Experience

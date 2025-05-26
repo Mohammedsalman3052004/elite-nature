@@ -82,3 +82,11 @@ body {
   line-height: normal;
   margin-bottom: 5rem;
 }
+
+
+@media screen and (max-width: 768px) {
+  .main{
+    position: relative;
+  }
+  
+}

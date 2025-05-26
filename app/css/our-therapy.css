@@ -33,3 +33,34 @@
   height: calc(70vh - 100px);
   height: 500px !important;
 }
+
+
+@media screen and (max-width: 768px) {
+  .our-therapy-section {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem;
+  }
+
+  .our-therapy-heading {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  .our-therapy .swiper {
+    height: 70vh; /* Slightly smaller height for mobile */
+  }
+
+  .our-therapy-swiper .swiper-slide {
+    height: 400px !important; /* Smaller height for slides on mobile */
+  }
+
+  .our-therapy-slide {
+    width: 280px !important; /* Narrower card on smaller screens */
+    height: 420px !important;
+  }
+
+  .our-therapy-swiper .swiper-wrapper {
+    padding-bottom: 1rem;
+  }
+}

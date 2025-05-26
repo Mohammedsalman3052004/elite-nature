@@ -11,6 +11,7 @@
   object-fit: cover;
   background-position: center;
   background-size: cover;
+  border-radius: 20px;
 }
 .our-pricing-heading-text {
   color: #c9a438;
@@ -73,4 +74,53 @@
   font-weight: 500;
   line-height: normal;
   width: 53.75rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .mainn {
+    padding: 2rem 1rem;
+  }
+
+  .our-pricing {
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .our-pricing-heading-text {
+    font-size: 2rem;
+    height: 2.5rem;
+  }
+
+  .our-pricing-content {
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* gap: 2rem; */
+  }
+
+  .our-pricing-column1,
+  .our-pricing-column2,
+  .our-pricing-column3 {
+    align-items: flex-start;
+    width: 100%;
+    /* gap: 0.75rem; */
+  }
+
+  .our-pricing-content-heading {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .our-pricing-content-subheading {
+    font-size: 1.25rem;
+    height: 2.5rem;
+  }
+
+  .our-pricing-sub-content-text {
+    font-size: 1.125rem;
+    width: 100%;
+    text-align: center;
+  }
 }

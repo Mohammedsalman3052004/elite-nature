@@ -3,7 +3,9 @@
   background: rgba(47, 74, 59, 1);
   height: 100px;
   padding: auto 100px;
+  z-index: 2;
 }
+
 .nav-padding {
   display: flex;
   justify-content: space-evenly;
@@ -11,6 +13,7 @@
   height: 100%;
   gap: 300px;
 }
+
 .nav-links-div {
   display: flex;
   width: 30.5rem;
@@ -18,6 +21,7 @@
   align-items: center;
   gap: 2.1875rem;
 }
+
 .nav-links {
   color: #fff;
   font-family: Lato;
@@ -25,7 +29,9 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  text-decoration: none;
 }
+
 .nav-booking-div {
   display: flex;
   padding: 0.625rem;
@@ -35,6 +41,7 @@
   border-radius: 0.625rem;
   background: #c9a438;
 }
+
 .nav-booking-div p {
   color: #000;
   font-family: Lato;
@@ -44,4 +51,69 @@
   line-height: normal;
 }
 
+/* Hamburger Icon Styling */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  z-index: 9999;
+  position: relative;
+}
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
 
+/* Mobile Dropdown Menu */
+.mobile-dropdown {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(47, 74, 59, 1);
+  padding: 2rem 1.5rem; /* Increased padding */
+  gap: 1.2rem;
+  position: absolute;
+  top: 100%; /* Below navbar */
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+
+  /* Transition for smooth slide-down */
+  max-height: 500px;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Mobile Media Query */
+@media screen and (max-width: 768px) {
+  .navbar {
+    position: relative;
+    z-index: 9999;
+  }
+
+  .nav-padding {
+    justify-content: space-between;
+    padding: 0 1rem;
+    gap: 0;
+  }
+
+  .nav-links-div {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-booking-div {
+    display: none;
+  }
+
+  .mobile-dropdown .nav-links {
+    font-size: 1rem;
+    color: white;
+  }
+}

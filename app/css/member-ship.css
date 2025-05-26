@@ -127,3 +127,62 @@
   font-weight: 700;
   line-height: normal;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+  .membership {
+    margin: 3rem 1rem;
+    gap: 2rem;
+  }
+
+  .membership-heading h3 {
+    font-size: 2rem;
+  }
+
+  .membership-heading p {
+    font-size: 1rem;
+  }
+
+  .membership-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .membership-card {
+    width: 100%;
+    max-width: 22rem;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .membership-card-heading-text {
+    font-size: 2rem;
+  }
+
+  .membership-card-heading-subtext {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+
+  .membership-card-heading-price {
+    font-size: 2rem;
+  }
+
+  .membership-card-heading-time {
+    font-size: 1rem;
+  }
+
+  .membership-card-content-text-para {
+    font-size: 1rem;
+  }
+
+  .membership-card-content-btn {
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 0.9375rem;
+  }
+}

@@ -40,3 +40,35 @@
   font-weight: 600;
   line-height: normal;
 }
+
+
+
+@media (max-width: 768px) {
+  .counting-number-section {
+    padding: 2rem 1rem !important;
+  }
+
+  .counting-number {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    height: auto !important;
+    padding: 2rem 1rem !important;
+    gap: 2rem !important;
+    width: 100% !important;
+    border-radius: 1.5rem !important;
+  }
+
+  .counting-number-container {
+    flex: 0 0 45% !important; /* Roughly half the width with margin */
+    max-width: 45% !important;
+    gap: 0.5rem !important;
+  }
+
+  .numbers {
+    font-size: 2.5rem !important;
+  }
+
+  .counting-number-text {
+    font-size: 1.25rem !important;
+  }
+}

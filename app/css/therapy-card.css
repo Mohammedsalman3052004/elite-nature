@@ -73,3 +73,66 @@
   font-weight: 400;
   line-height: normal;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .our-therapy-container {
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem;
+    height: 14rem !important;
+  }
+
+  .our-therapy-background {
+    width: 11.5rem;
+    height: 14rem;
+    transform: rotate(-5deg);
+    border-radius: 0.6rem;
+  }
+
+  .our-therapy-foreground {
+    width: 12.25rem;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    gap: 0.5rem;
+    height: 14rem;
+  }
+
+  .our-therapy-image-div {
+    width: 100%;
+    height: auto;
+  }
+
+  .our-therapy-image {
+    width: 100%;
+    height: auto;
+    max-height: 90px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+
+  .our-therapy-content {
+    gap: 0.4rem;
+  }
+
+  .our-therapy-content-heading {
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+
+  .our-therapy-content-description {
+    font-size: 0.65rem;
+    padding: 0 0.25rem;
+  }
+
+  .our-therapy-content-pricing {
+    width: fit-content;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.5rem;
+  }
+
+  .our-therapy-content-pricing p {
+    font-size: 0.6rem;
+  }
+}
