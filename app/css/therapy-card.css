@@ -136,6 +136,6 @@
     font-size: 0.6rem;
   }
   .our-therapy-slid{
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 }
