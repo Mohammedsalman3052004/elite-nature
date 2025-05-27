@@ -70,7 +70,7 @@ const ourTherapyRow1 = [
 ];
 const OurAmbiance = () => {
   return (
-    <div className="main">
+    <div className="main" id="our-ambiance">
       <div className="our-ambiance">
         <div className="title">Our Ambiance</div>
         <Swiper

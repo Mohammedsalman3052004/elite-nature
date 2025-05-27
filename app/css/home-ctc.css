@@ -72,6 +72,16 @@ body {
 
 
 
+.homectc-overlay-heading {
+  color: #c9a438;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6); 
+}
+
+.homectc-overlay-subheading {
+  color: #c9a438;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
 
 @media (max-width: 768px) {
   .swiper {
@@ -95,14 +105,16 @@ body {
   }
 
   .homectc-overlay-heading {
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     font-weight: 700 !important;
     line-height: 1.2 !important;
+    color: #000;
   }
 
   .homectc-overlay-subheading {
-    font-size: 0.75rem !important;
-    width: 100% !important;
+    font-size: 0.7rem !important;
+    width: 90% !important;
     line-height: 1.4 !important;
+    color: #000;
   }
 }

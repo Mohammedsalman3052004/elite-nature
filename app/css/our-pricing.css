@@ -92,6 +92,10 @@
     font-size: 2rem;
     height: 2.5rem;
   }
+  .our-pricing-content{
+    display: flex;
+    gap: 2rem;
+  }
   .our-pricing-column1,
   .our-pricing-column2,
   .our-pricing-column3 {

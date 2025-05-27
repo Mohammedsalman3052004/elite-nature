@@ -22,28 +22,25 @@ const Footer = () => {
       <div className="footer-content-section">
         <div className="footer-content">
           <p className="footer-content-heading">Quick Links</p>
-          <Link className="footer-content-links" href="/">
+          <Link className="nav-links" href="/">
             Home
           </Link>
-          <Link className="footer-content-links" href="/">
+          <Link className="nav-links" href="#our-therapy">
             Services
           </Link>
-          <Link className="footer-content-links" href="/">
-            Testimonials
+          <Link className="nav-links" href="#our-pricing">
+            Pricing & Packages
           </Link>
-          <Link className="footer-content-links" href="/">
-            Pricing & Package
-          </Link>
-          <Link className="footer-content-links" href="/">
-            Booking
+          <Link className="nav-links" href="#membership">
+            Membership
           </Link>
         </div>
         <div className="footer-content">
           <p className="footer-content-heading">Contact</p>
-          <Link className="footer-content-links" href="/">
+          <Link className="footer-content-links" href="tel:8056444650">
             Cell : 80564 44650
           </Link>
-          <Link className="footer-content-links" href="/">
+          <Link className="footer-content-links" href="mailto:elitenatural@gmail.com">
             Email : elitenatural@gmail.com
           </Link>
         </div>

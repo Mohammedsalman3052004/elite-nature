@@ -7,6 +7,10 @@ import Image from "next/image";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <div className="navbar">
       <div className="nav-padding">
@@ -19,21 +23,22 @@ const Navbar = () => {
           <Link className="nav-links" href="/">
             Home
           </Link>
-          <Link className="nav-links" href="#services">
+          <Link className="nav-links" href="#our-therapy">
             Services
           </Link>
-          <Link className="nav-links" href="#testimonials">
-            Testimonials
-          </Link>
-          <Link className="nav-links" href="#pricing & packages">
+          <Link className="nav-links" href="#our-pricing">
             Pricing & Packages
+          </Link>
+          <Link className="nav-links" href="#membership">
+            Membership
           </Link>
         </div>
 
-        {/* Booking Button (Always visible) */}
-        <div className="nav-booking-div">
-          <p>Booking Now</p>
-        </div>
+        <Link className="nav-links" href="#booking">
+          <div className="nav-booking-div">
+            <p>Booking Now</p>
+          </div>
+        </Link>
 
         {/* Hamburger Icon (Mobile Only) */}
         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
@@ -46,17 +51,20 @@ const Navbar = () => {
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
         <div className="mobile-dropdown">
-          <Link className="nav-links" href="/">
+          <Link className="nav-links" href="/" onClick={handleLinkClick}>
             Home
           </Link>
-          <Link className="nav-links" href="#services">
+          <Link className="nav-links" href="#our-therapy" onClick={handleLinkClick}>
             Services
           </Link>
-          <Link className="nav-links" href="#testimonials">
-            Testimonials
-          </Link>
-          <Link className="nav-links" href="#pricing & packages">
+          <Link className="nav-links" href="#our-pricing" onClick={handleLinkClick}>
             Pricing & Packages
+          </Link>
+          <Link className="nav-links" href="#membership" onClick={handleLinkClick}>
+            Membership
+          </Link>
+          <Link className="nav-links" href="#booking" onClick={handleLinkClick}>
+            Book Now
           </Link>
         </div>
       )}

@@ -10,7 +10,7 @@ import "../css/home-ctc.css";
 
 export default function HomeCtc() {
   return (
-    <div className="main">
+    <div className="main" id="home-ctc">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

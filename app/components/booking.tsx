@@ -77,7 +77,7 @@ const Booking = () => {
   ];
 
   return (
-    <div className="main">
+    <div className="main" id="booking">
       {showPopup && (
         <div className="success-popup">
           <div className="popup-content">
