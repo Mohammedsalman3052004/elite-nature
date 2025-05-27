@@ -3,31 +3,73 @@
 import React, { useState, useRef } from "react";
 import "../css/booking.css";
 import Image from "next/image";
+import emailjs from "@emailjs/browser";
 
 const Booking = () => {
   const [selectedDate, setSelectedDate] = useState("");
   const [selectedTime, setSelectedTime] = useState("");
   const [selectedService, setSelectedService] = useState("");
   const [showPopup, setShowPopup] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const formRef = useRef<HTMLFormElement>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setLoading(true);
 
-    // Show success popup
-    setShowPopup(true);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
-    // Hide popup after 3 seconds
-    setTimeout(() => {
-      setShowPopup(false);
-    }, 3000);
+    const url =
+      "https://script.google.com/macros/s/AKfycbwSjXpfto9BSdgjtn5M1Sdq-BxdU63mXIS-2pV9rum8y2aeuS-_Ng8g9M2ZsMh-y6hyyw/exec";
 
-    // Reset form fields
-    formRef.current?.reset();
-    setSelectedDate("");
-    setSelectedTime("");
-    setSelectedService("");
+    const payload = `Name=${encodeURIComponent(
+      formData.get("name") as string
+    )}&Email=${encodeURIComponent(
+      formData.get("email") as string
+    )}&Phone=${encodeURIComponent(
+      formData.get("phone") as string
+    )}&Date=${encodeURIComponent(
+      formData.get("date") as string
+    )}&Time=${encodeURIComponent(
+      formData.get("time") as string
+    )}&Service=${encodeURIComponent(
+      formData.get("service") as string
+    )}&Message=${encodeURIComponent(formData.get("message") as string)}`;
+
+    try {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: payload,
+      });
+
+      const result = await response.text();
+      console.log("Form submitted to Google Sheets:", result);
+
+      await emailjs.sendForm(
+        "service_zq1kl0p",
+        "template_lj309e9",
+        form,
+        "JdDzBJUiRUIXLukdG"
+      );
+
+      console.log("Email sent successfully!");
+
+      setShowPopup(true);
+      setTimeout(() => setShowPopup(false), 3000);
+      formRef.current?.reset();
+      setSelectedDate("");
+      setSelectedTime("");
+      setSelectedService("");
+    } catch (error) {
+      console.error("Submission or Email error:", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const timeSlots = [
@@ -234,7 +276,9 @@ const Booking = () => {
               />
             </div>
 
-            <button className="form-button">Book Appointment</button>
+            <button className="form-button" type="submit" disabled={loading}>
+              {loading ? <div className="spinner"></div> : "Book Appointment"}
+            </button>
           </form>
         </div>
       </div>
