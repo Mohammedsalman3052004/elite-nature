@@ -1,5 +1,14 @@
+.title {
+  color: #2f4a3b;
+  text-align: center;
+  font-family: Lato;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5rem;
+}
 .our-therapy-section {
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +16,6 @@
 }
 .our-therapy .swiper {
   height: calc(80vh - 100px);
-  /* height: 100%; */
 }
 .our-therapy-heading {
   color: #2f4a3b;
@@ -34,8 +42,20 @@
   height: 500px !important;
 }
 
-
 @media screen and (max-width: 768px) {
+  .our-therapy{
+    margin: 3rem 0;
+  }
+  .title {
+    color: #2f4a3b;
+    text-align: center;
+    font-family: Lato;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1rem;
+  }
   .our-therapy-section {
     flex-direction: column;
     gap: 3rem;
@@ -48,15 +68,16 @@
   }
 
   .our-therapy .swiper {
-    height: 70vh; /* Slightly smaller height for mobile */
+    height: 70vh;
   }
 
   .our-therapy-swiper .swiper-slide {
-    height: 400px !important; /* Smaller height for slides on mobile */
+    height: 300px !important; 
+    margin-right: 0 !important;
   }
 
   .our-therapy-slide {
-    width: 280px !important; /* Narrower card on smaller screens */
+    width: 280px !important; 
     height: 420px !important;
   }
 
