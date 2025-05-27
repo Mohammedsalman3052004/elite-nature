@@ -48,10 +48,10 @@ const OurPricing = () => {
             <p className="our-pricing-content-subheading">₹2500</p>
             <p className="our-pricing-content-subheading">₹2500</p>
             <p className="our-pricing-content-subheading">₹2800</p>
-            <p className="our-pricing-content-subheading">₹2500</p>
-            <p className="our-pricing-content-subheading">₹1000</p>
-            <p className="our-pricing-content-subheading">₹1000</p>
-            <p className="our-pricing-content-subheading">₹1200</p>
+            <p className="our-pricing-content-subheading">₹3000</p>
+            <p className="our-pricing-content-subheading">₹1000 (30 min)</p>
+            <p className="our-pricing-content-subheading">₹1000 (30 min)</p>
+            <p className="our-pricing-content-subheading">₹1200 (30 min)</p>
             <p className="our-pricing-content-subheading">₹1500</p>
             <p className="our-pricing-content-subheading">₹2250</p>
           </div>
@@ -64,7 +64,7 @@ const OurPricing = () => {
             <p className="our-pricing-content-subheading">₹3500</p>
             <p className="our-pricing-content-subheading">₹3500</p>
             <p className="our-pricing-content-subheading">₹4000</p>
-            <p className="our-pricing-content-subheading">₹3500</p>
+            <p className="our-pricing-content-subheading">₹4000</p>
             <p className="our-pricing-content-subheading">-</p>
             <p className="our-pricing-content-subheading">-</p>
             <p className="our-pricing-content-subheading">-</p>
