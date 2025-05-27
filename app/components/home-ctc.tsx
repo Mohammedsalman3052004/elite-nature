@@ -26,17 +26,17 @@ export default function HomeCtc() {
       >
         <SwiperSlide>
           <Image
-            src="/images/massage3.png"
+            src="/images/massage.png"
             alt="spa image"
             className="homectc-image"
             height={750}
             width={1280}
           />
           <div className="homectc-overlay">
-            <h1 className="homectc-overlay-heading">Thai Massage</h1>
+            <h1 className="homectc-overlay-heading">Sports Massage</h1>
             <p className="homectc-overlay-subheading">
-              "Experience the ancient art of Thai massage - restore balance,
-              relieve stress, and rejuvenate your body and soul."
+              "Enhance performance, prevent injury, and speed up recovery with
+              massage designed for active and athletic lifestyles."
             </p>
           </div>
         </SwiperSlide>
@@ -56,48 +56,56 @@ export default function HomeCtc() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide><Image
-            src="/images/massage2.png"
+        <SwiperSlide>
+          <Image
+            src="/images/massage8.png"
+            alt="spa image"
+            className="homectc-image"
+            height={750}
+            width={1280}
+          />
+          <div className="homectc-overlay">
+            <h1 className="homectc-overlay-heading">
+              Foot Reflexology Massage
+            </h1>
+            <p className="homectc-overlay-subheading">
+              "Restore body harmony and energy flow through expert pressure on
+              reflex points in your feet."
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/images/massage7.png"
             alt=""
             className="homectc-image"
             height={750}
             width={1280}
           />
           <div className="homectc-overlay">
-            <h1 className="homectc-overlay-heading">Thai Massage</h1>
+            <h1 className="homectc-overlay-heading">Steam Bath</h1>
             <p className="homectc-overlay-subheading">
-              "Experience the ancient art of Thai massage - restore balance,
-              relieve stress, and rejuvenate your body and soul."
+              "Detoxify your body and clear your mind with a soothing steam bath
+              that refreshes from within."
             </p>
-          </div></SwiperSlide>
-        <SwiperSlide><Image
-            src="/images/massage4.png"
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/images/massage6.png"
             alt=""
             className="homectc-image"
             height={750}
             width={1280}
           />
           <div className="homectc-overlay">
-            <h1 className="homectc-overlay-heading">Thai Massage</h1>
+            <h1 className="homectc-overlay-heading">Fruit Scrub Massage</h1>
             <p className="homectc-overlay-subheading">
-              "Experience the ancient art of Thai massage - restore balance,
-              relieve stress, and rejuvenate your body and soul."
+              "Exfoliate, nourish, and renew your skin with a revitalising scrub
+              and massage for a radiant glow."
             </p>
-          </div></SwiperSlide>
-        <SwiperSlide><Image
-            src="/images/massage5.png"
-            alt=""
-            className="homectc-image"
-            height={750}
-            width={1280}
-          />
-          <div className="homectc-overlay">
-            <h1 className="homectc-overlay-heading">Thai Massage</h1>
-            <p className="homectc-overlay-subheading">
-              "Experience the ancient art of Thai massage - restore balance,
-              relieve stress, and rejuvenate your body and soul."
-            </p>
-          </div></SwiperSlide>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

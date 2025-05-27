@@ -135,4 +135,7 @@
   .our-therapy-content-pricing p {
     font-size: 0.6rem;
   }
+  .our-therapy-slid{
+    margin-right: 0;
+  }
 }

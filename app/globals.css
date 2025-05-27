@@ -72,16 +72,6 @@ body {
   font-style: italic;
 }
 
-.title {
-  color: #2f4a3b;
-  text-align: center;
-  font-family: Lato;
-  font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-bottom: 5rem;
-}
 
 
 @media screen and (max-width: 768px) {
