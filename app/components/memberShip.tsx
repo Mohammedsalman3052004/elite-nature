@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const MemberShip = () => {
   return (
-    <div className="main">
+    <div className="main" id="membership">
       <div className="membership">
         <div className="membership-heading">
           <p>Choose your package</p>

@@ -129,7 +129,7 @@ const ourTherapyRow2 = [
 
 const OurTherapy = () => { 
   return (
-    <div className="main our-therapy">
+    <div className="main our-therapy" id="our-therapy">
       <div className="title">Our Therapy</div>
       <Swiper
         slidesPerView="auto"
