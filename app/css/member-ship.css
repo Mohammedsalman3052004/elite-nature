@@ -128,7 +128,12 @@
   font-weight: 700;
   line-height: normal;
 }
-
+.membership-card-content-btn:hover{
+  background: #c9a538;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
 
 
 

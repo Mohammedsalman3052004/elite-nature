@@ -24,14 +24,19 @@
 
 .nav-links {
   color: #fff;
-  font-family: Lato;
-  font-size: 0.9375rem;
+  /* font-family: Lato; */
+  /* font-family: ; */
+  /* font-size: 0.9375rem; */
+  font-size: 1rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-decoration: none;
 }
-
+.nav-links:hover {
+  color: #c9a538cd;
+  transition: all 0.3s ease-in-out;
+}
 .nav-booking-div {
   display: flex;
   padding: 0.625rem;
@@ -49,6 +54,18 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.nav-booking-div:hover {
+  background: #000;
+  border: 1px solid #c9a538;
+  color: #c9a538;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.nav-booking-div:hover p {
+  color: #c9a538;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Hamburger Icon Styling */

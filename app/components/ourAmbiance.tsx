@@ -72,7 +72,7 @@ const OurAmbiance = () => {
   return (
     <div className="main" id="our-ambiance">
       <div className="our-ambiance">
-        <div className="title">Our Ambiance</div>
+        <div className="title"><span className="heading-span">O</span>ur <span className="heading-span">A</span>mbiance</div>
         <Swiper
           slidesPerView="auto"
           spaceBetween={30}

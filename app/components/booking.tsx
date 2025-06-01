@@ -11,7 +11,6 @@ const Booking = () => {
   const [selectedService, setSelectedService] = useState("");
   const [showPopup, setShowPopup] = useState(false);
   const [loading, setLoading] = useState(false);
-
   const formRef = useRef<HTMLFormElement>(null);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -22,7 +21,7 @@ const Booking = () => {
     const formData = new FormData(form);
 
     const url =
-      "https://script.google.com/macros/s/AKfycbwSjXpfto9BSdgjtn5M1Sdq-BxdU63mXIS-2pV9rum8y2aeuS-_Ng8g9M2ZsMh-y6hyyw/exec";
+      "https://script.google.com/macros/s/AKfycbwrsGSkZJ_pNtkmwUAwmWUjEsMWC7eXrAOB26FJxE4FcsnCXqR-7KEWK3YqP8RbeEa5dg/exec";
 
     const payload = `Name=${encodeURIComponent(
       formData.get("name") as string
@@ -73,9 +72,6 @@ const Booking = () => {
   };
 
   const timeSlots = [
-    "9:00 AM",
-    "9:30 AM",
-    "10:00 AM",
     "10:30 AM",
     "11:00 AM",
     "11:30 AM",
@@ -96,6 +92,7 @@ const Booking = () => {
     "7:00 PM",
     "7:30 PM",
     "8:00 PM",
+    "8:30 PM",
   ];
 
   const treatments = [

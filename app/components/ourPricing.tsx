@@ -6,7 +6,7 @@ const OurPricing = () => {
     <div className="mainn" id="our-pricing">
       <div className="our-pricing">
         <div className="our-pricing-heading">
-          <div className="our-pricing-heading-text">Our Prices</div>
+          <div className="our-pricing-heading-text"><span className="heading-span-invert">O</span>ur <span className="heading-span-invert">P</span>rices</div>
         </div>
         <div className="our-pricing-content">
           <div className="our-pricing-column1">

@@ -127,10 +127,13 @@ const ourTherapyRow2 = [
   },
 ];
 
-const OurTherapy = () => { 
+const OurTherapy = () => {
   return (
     <div className="main our-therapy" id="our-therapy">
-      <div className="title">Our Therapy</div>
+      <div className="title">
+        <span className="heading-span">O</span>ur{" "}
+        <span className="heading-span">T</span>herapy
+      </div>
       <Swiper
         slidesPerView="auto"
         spaceBetween={30}
@@ -168,7 +171,7 @@ const OurTherapy = () => {
         speed={4000}
         autoplay={{
           delay: 0,
-          reverseDirection: true, 
+          reverseDirection: true,
           disableOnInteraction: false,
         }}
         allowTouchMove={false}

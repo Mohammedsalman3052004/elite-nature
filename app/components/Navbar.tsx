@@ -34,7 +34,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <Link className="nav-links" href="#booking">
+        <Link className="nav-linkss" href="#booking">
           <div className="nav-booking-div">
             <p>Booking Now</p>
           </div>
