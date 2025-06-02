@@ -15,8 +15,8 @@ const Footer = () => {
           className="footer-logo"
         />
         <p className="footer-description">
-          "Dedicated to holistic wellness and personalized care. Experience
-          relaxation, rejuvenation, and renewal at Spring Day Spa."
+          "Spring Day Spa Vellore - Rated 4.8★ for Body Massage, Foot Massage &
+          Steam Bath in Vellore."
         </p>
       </div>
       <div className="footer-content-section">
@@ -40,14 +40,18 @@ const Footer = () => {
           <Link className="footer-content-links" href="tel:8056444650">
             Cell : 80564 44650
           </Link>
-          <Link className="footer-content-links" href="mailto:elitenatural@gmail.com">
+          <Link
+            className="footer-content-links"
+            href="mailto:elitenatural@gmail.com"
+          >
             Email : elitenatural@gmail.com
           </Link>
         </div>
         <div className="footer-content">
           <p className="footer-content-heading">Address</p>
           <Link className="footer-content-links-address" href="/">
-            44 Muslim Street Sekkanur Pettai, Ussoor - Vellore Dist - 632105
+            No:53,APL Layout Extension, Venkatapuram Road, Pudhu Vasoor Road,
+            Alamelumangapuram, Vellore - 632009.
           </Link>
         </div>
       </div>

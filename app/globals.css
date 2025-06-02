@@ -4,6 +4,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --green: rgba(47, 74, 59, 1);
 }
 
 body {

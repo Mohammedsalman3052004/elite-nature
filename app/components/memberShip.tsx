@@ -8,14 +8,15 @@ const MemberShip = () => {
       <div className="membership">
         <div className="membership-heading">
           <p>Choose your package</p>
-          <h3>Spring Day Spa Packages</h3>
+          <h3>Spring Days Spa Packages</h3>
         </div>
         <div className="membership-content">
           <div className="membership-card">
             <div className="membership-card-heading">
               <h3 className="membership-card-heading-text">Royal Club</h3>
               <p className="membership-card-heading-subtext">
-                "Let Your Stress Melt Away."
+                "Includes therapies for complete relaxation. Ideal for stress
+                relief and body rejuvenation."
               </p>
               <Image
                 src="../assets/card-logo.svg"
@@ -58,7 +59,7 @@ const MemberShip = () => {
                   />
                 </svg>
                 <p className="membership-card-content-text-para">
-                  Avail Packages in weekday and weekend also.
+                  Avail Packages in weekdays and weekend also.
                 </p>
               </div>
               <div className="membership-card-content-text">
@@ -106,7 +107,8 @@ const MemberShip = () => {
             <div className="membership-card-heading">
               <h3 className="membership-card-heading-text">Elite Club</h3>
               <p className="membership-card-heading-subtext">
-                "Spa-lendid Moments Await."
+                "Premium package for those seeking detox, pain relief, and
+                beauty therapies."
               </p>
               <Image
                 src="../assets/card-logo.svg"
@@ -149,7 +151,7 @@ const MemberShip = () => {
                   />
                 </svg>
                 <p className="membership-card-content-text-para">
-                  Avail Packages in weekday and weekend also.
+                  Avail Packages in weekdays and weekend also.
                 </p>
               </div>
               <div className="membership-card-content-text">

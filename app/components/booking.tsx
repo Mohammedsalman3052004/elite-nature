@@ -133,15 +133,16 @@ const Booking = () => {
           </div>
           <div className="booking-heading">
             <h1 className="booking-heading-text">
-              Your Wellness Journey Starts Here
+              Your Wellness Journey Starts Here in <br className="hidden md:block" />
+              Vellore
             </h1>
           </div>
           <div className="booking-image">
             <div className="booking-image-content">
               <div className="booking-image-content-text">
-                Scheduling your relaxation session has never been easier. Choose
-                your preferred date, time, and service, and let us handle the
-                rest.
+                Schedule your massage therapy session with Sprin Days Spa - the
+                best spa in Vellore offering ayurvedic, steam, and full body
+                massage for women and men.
               </div>
             </div>
             <div className="booking-image-div">

@@ -60,12 +60,13 @@
   line-height: normal;
 }
 .membership-card-heading-subtext {
-  color: #000;
+  color: var(--green);
   font-family: Lato;
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-align: center;
 }
 .membership-card-heading-price {
   color: #000;

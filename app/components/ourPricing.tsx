@@ -6,11 +6,22 @@ const OurPricing = () => {
     <div className="mainn" id="our-pricing">
       <div className="our-pricing">
         <div className="our-pricing-heading">
-          <div className="our-pricing-heading-text"><span className="heading-span-invert">O</span>ur <span className="heading-span-invert">P</span>rices</div>
+          <div className="our-pricing-heading-text">
+            <span className="heading-span-invert">O</span>ur{" "}
+            <span className="heading-span-invert">P</span>rices
+          </div>
+          <div className="our-pricing-heading-text-sub">
+            <p>
+              Looking for affordable body massage services in Vellore? Journey
+              Spa offers Swedish, Thai, and Deep Tissue massages at
+              pocket-friendly prices. Choose from 60 or 90-minute sessions
+              tailored to your needs.
+            </p>
+          </div>
         </div>
         <div className="our-pricing-content">
           <div className="our-pricing-column1">
-            <h3 className="our-pricing-content-heading">THERAPY</h3>
+            <h3 className="our-pricing-content-heading">Therapy Name List</h3>
             <p className="our-pricing-content-subheading">Thai Massage</p>
             <p className="our-pricing-content-subheading">Ayurvedic Massage</p>
             <p className="our-pricing-content-subheading">Swedish Massage</p>
@@ -35,9 +46,7 @@ const OurPricing = () => {
             <p className="our-pricing-content-subheading hidden mb:block">
               Scrub Massage (Fruit, Chocolate, Coffee, Sea Salt)
             </p>
-            <p className="our-pricing-content-subheading">
-              Scrub Massage
-            </p>
+            <p className="our-pricing-content-subheading">Scrub Massage</p>
           </div>
           <div className="our-pricing-column2">
             <h3 className="our-pricing-content-heading">60 Minutes</h3>

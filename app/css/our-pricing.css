@@ -32,6 +32,24 @@
   line-height: normal;
   border-bottom: 1px solid #c9a438;
 }
+.our-pricing-heading-text-sub {
+  width: 100%;
+  text-align: center;
+  color: #c9a438;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.our-pricing-heading-text-sub p {
+  width: 80%;
+  font-family: Lato;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .our-pricing-content-subheading {
   color: #fff;
   font-family: Lato;
@@ -79,8 +97,6 @@
   text-align: center;
 }
 
-
-
 @media (max-width: 768px) {
   .mainn {
     padding: 2rem 1rem;
@@ -95,7 +111,12 @@
     font-size: 2rem;
     height: 2.5rem;
   }
-  .our-pricing-content{
+  .our-pricing-heading-text-sub p{
+    font-size: 1rem;
+    width: 100%;
+    /* height: 2.5rem; */
+  }
+  .our-pricing-content {
     display: flex;
     gap: 2rem;
   }

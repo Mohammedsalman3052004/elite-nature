@@ -1,12 +1,28 @@
+.our-therapy-heading {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.81rem;
+}
 .title {
-  color: #2f4a3b;
+  color: var(--green);
   text-align: center;
   font-family: Lato;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 5rem;
+}
+.therapy-subtitle {
+  color: var(--green);
+  font-family: Lato;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 60%;
 }
 .our-therapy-section {
   display: flex;
@@ -43,7 +59,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .our-therapy{
+  .our-therapy {
     margin: 3rem 0;
   }
   .title {
@@ -65,19 +81,23 @@
   .our-therapy-heading {
     font-size: 2rem;
     padding: 0 1rem;
-    }
-
+  }
+  .therapy-subtitle {
+    width: 100%;
+    /* padding: 0 1rem; */
+    font-size: 1.2rem;
+  }
   .our-therapy .swiper {
     height: 70vh;
   }
 
   .our-therapy-swiper .swiper-slide {
-    height: 250px !important; 
+    height: 250px !important;
     /* margin-right: 0 !important; */
   }
 
   .our-therapy-slide {
-    width: 280px !important; 
+    width: 280px !important;
     height: 420px !important;
   }
 

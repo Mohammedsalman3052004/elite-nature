@@ -33,23 +33,29 @@ export default function HomeCtc() {
             width={1280}
           />
           <div className="homectc-overlay">
-            <h1 className="homectc-overlay-heading">Sports Massage</h1>
+            <h1 className="homectc-overlay-heading ">
+              Best Spa in Vellore for Sports Massage and Total Wellness
+            </h1>
             <p className="homectc-overlay-subheading">
-              "Enhance performance, prevent injury, and speed up recovery with
-              massage designed for active and athletic lifestyles."
+              "Experience rejuvenating therapies like deep tissue massage, steam
+              baths, and more - designed for modern lifestyles."
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/massage1.png"
+            src="/images/massage9.png"
             alt=""
             className="homectc-image"
             height={750}
             width={1280}
           />
           <div className="homectc-overlay">
-            <h1 className="homectc-overlay-heading">Thai Massage</h1>
+            <h1 className="homectc-overlay-heading">
+              {" "}
+              Authentic Thai Massage in Vellore for Deep Relaxation and
+              Flexibility
+            </h1>
             <p className="homectc-overlay-subheading">
               "Experience the ancient art of Thai massage - restore balance,
               relieve stress, and rejuvenate your body and soul."
@@ -58,7 +64,7 @@ export default function HomeCtc() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/massage8.png"
+            src="/images/massage8.svg"
             alt="spa image"
             className="homectc-image"
             height={750}
@@ -66,7 +72,7 @@ export default function HomeCtc() {
           />
           <div className="homectc-overlay">
             <h1 className="homectc-overlay-heading">
-              Foot Reflexology Massage
+              Foot Reflexology in Vellore - Natural Healing Through Expert Touch
             </h1>
             <p className="homectc-overlay-subheading">
               "Restore body harmony and energy flow through expert pressure on
@@ -83,7 +89,10 @@ export default function HomeCtc() {
             width={1280}
           />
           <div className="homectc-overlay">
-            <h1 className="homectc-overlay-heading">Steam Bath</h1>
+            <h1 className="homectc-overlay-heading">
+              {" "}
+              Refreshing Steam Bath in Vellore - Detox and Rejuvenate Naturally
+            </h1>
             <p className="homectc-overlay-subheading">
               "Detoxify your body and clear your mind with a soothing steam bath
               that refreshes from within."
@@ -99,7 +108,9 @@ export default function HomeCtc() {
             width={1280}
           />
           <div className="homectc-overlay">
-            <h1 className="homectc-overlay-heading">Fruit Scrub Massage</h1>
+            <h1 className="homectc-overlay-heading">
+              Fruit Scrub Massage in Vellore - Glowing Skin with Nature&spos;s Touch
+            </h1>
             <p className="homectc-overlay-subheading">
               "Exfoliate, nourish, and renew your skin with a revitalising scrub
               and massage for a radiant glow."

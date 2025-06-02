@@ -130,10 +130,17 @@ const ourTherapyRow2 = [
 const OurTherapy = () => {
   return (
     <div className="main our-therapy" id="our-therapy">
-      <div className="title">
-        <span className="heading-span">O</span>ur{" "}
-        <span className="heading-span">T</span>herapy
+      <div className="our-therapy-heading">
+        <div className="title">
+          <span className="heading-span">O</span>ur
+          <span className="heading-span">T</span>herapy
+        </div>
+        <p className="therapy-subtitle">
+          Discover the Best Spa Therapies in Vellore - Premium Wellness Services
+          at Affordable Prices
+        </p>
       </div>
+
       <Swiper
         slidesPerView="auto"
         spaceBetween={30}

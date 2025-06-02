@@ -2,7 +2,6 @@
 
 import React from "react";
 import "../css/our-ambiance.css";
-
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
@@ -72,7 +71,17 @@ const OurAmbiance = () => {
   return (
     <div className="main" id="our-ambiance">
       <div className="our-ambiance">
-        <div className="title"><span className="heading-span">O</span>ur <span className="heading-span">A</span>mbiance</div>
+        <div className="ambiance-heading">
+          <div className="ambiance-title">
+            Luxury <span className="heading-span"> Spa Ambience</span> Near You
+          </div>
+          <div className="sub-title">
+            Step into a calming atmosphere designed for relaxation and stress
+            relief. Our spa in Vellore features private rooms, calming lights,
+            and aromatic therapy zones.
+          </div>
+        </div>
+
         <Swiper
           slidesPerView="auto"
           spaceBetween={30}
@@ -89,34 +98,94 @@ const OurAmbiance = () => {
           className="our-ambiance-swiper"
         >
           <SwiperSlide className="our-therapy-slide">
-            <Image src="/images/ambiance/1.png" alt="" className="ambiance-image" height={750} width={1280} />
+            <Image
+              src="/images/ambiance/1.png"
+              alt=""
+              className="ambiance-image"
+              height={750}
+              width={1280}
+            />
           </SwiperSlide>
           <SwiperSlide className="our-therapy-slide">
-            <Image src="/images/ambiance/2.png" alt="" className="ambiance-image" height={750} width={1280} />
+            <Image
+              src="/images/ambiance/2.png"
+              alt=""
+              className="ambiance-image"
+              height={750}
+              width={1280}
+            />
           </SwiperSlide>
           <SwiperSlide className="our-therapy-slide">
-            <Image src="/images/ambiance/3.png" alt="" className="ambiance-image" height={750} width={1280} />
+            <Image
+              src="/images/ambiance/3.png"
+              alt=""
+              className="ambiance-image"
+              height={750}
+              width={1280}
+            />
           </SwiperSlide>
           <SwiperSlide className="our-therapy-slide">
-            <Image src="/images/ambiance/4.png" alt="" className="ambiance-image" height={750} width={1280} />
+            <Image
+              src="/images/ambiance/4.png"
+              alt=""
+              className="ambiance-image"
+              height={750}
+              width={1280}
+            />
           </SwiperSlide>
           <SwiperSlide className="our-therapy-slide">
-            <Image src="/images/ambiance/5.png" alt="" className="ambiance-image" height={750} width={1280} />
+            <Image
+              src="/images/ambiance/5.png"
+              alt=""
+              className="ambiance-image"
+              height={750}
+              width={1280}
+            />
           </SwiperSlide>
           <SwiperSlide className="our-therapy-slide">
-            <Image src="/images/ambiance/6.png" alt="" className="ambiance-image" height={750} width={1280} />
+            <Image
+              src="/images/ambiance/6.png"
+              alt=""
+              className="ambiance-image"
+              height={750}
+              width={1280}
+            />
           </SwiperSlide>
           <SwiperSlide className="our-therapy-slide">
-            <Image src="/images/ambiance/7.png" alt="" className="ambiance-image" height={750} width={1280} />
+            <Image
+              src="/images/ambiance/7.png"
+              alt=""
+              className="ambiance-image"
+              height={750}
+              width={1280}
+            />
           </SwiperSlide>
           <SwiperSlide className="our-therapy-slide">
-            <Image src="/images/ambiance/8.png" alt="" className="ambiance-image" height={750} width={1280} />
+            <Image
+              src="/images/ambiance/8.png"
+              alt=""
+              className="ambiance-image"
+              height={750}
+              width={1280}
+            />
           </SwiperSlide>
           <SwiperSlide className="our-therapy-slide">
-            <Image src="/images/ambiance/9.png" alt="" className="ambiance-image" height={750} width={1280} />
+            <Image
+              src="/images/ambiance/9.png"
+              alt=""
+              className="ambiance-image"
+              height={750}
+              width={1280}
+            />
           </SwiperSlide>
           <SwiperSlide className="our-therapy-slide">
-            <Image src="/images/ambiance/10.png" alt="" className="ambiance-image" height={750} width={1280} />
+            <Image
+              src="/images/ambiance/10.png"
+              alt=""
+              className="ambiance-image"
+              height={750}
+              width={1280}
+            />
           </SwiperSlide>
         </Swiper>
       </div>

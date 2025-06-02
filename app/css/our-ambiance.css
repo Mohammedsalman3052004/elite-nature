@@ -1,23 +1,55 @@
-.ambiance-image{
-    border-radius: 10px;
+.ambiance-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.81rem;
+  margin-bottom: 5rem;
 }
-.our-ambiance .swiper{
+.ambiance-title {
+  color: #2f4a3b;
+  text-align: center;
+  font-family: Lato;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sub-title {
+  color: #c9a438;
+  font-family: Lato;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 60%;
+  text-align: center;
+}
+
+.ambiance-image {
+  border-radius: 10px;
+}
+.our-ambiance .swiper {
   height: calc(70vh - 100px);
 }
 
-
-
-
 /* Professional mobile override for Swiper in Our Ambiance section */
 @media (max-width: 768px) {
+  .ambiance-title{
+    font-size: 2rem !important;
+    width: 80%;
+  }
+  .sub-title{
+    font-size: 1rem !important;
+    width: 90%;
+  }
   .our-ambiance .swiper {
-    height: 250px !important;        /* Reduce overall swiper height */
-    width: 100% !important;          /* Full width on mobile */
+    height: 250px !important; /* Reduce overall swiper height */
+    width: 100% !important; /* Full width on mobile */
   }
 
   .our-ambiance .swiper-slide {
-    width: 100% !important;           /* Slide width with padding */
-    height: 100% !important;         /* Match swiper height */
+    width: 100% !important; /* Slide width with padding */
+    height: 100% !important; /* Match swiper height */
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
