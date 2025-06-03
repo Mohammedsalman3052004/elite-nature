@@ -64,7 +64,7 @@ export default function HomeCtc() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/massage8.svg"
+            src="/images/massage66.png"
             alt="spa image"
             className="homectc-image"
             height={750}
@@ -101,7 +101,7 @@ export default function HomeCtc() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/massage6.png"
+            src="/images/massage8.png"
             alt=""
             className="homectc-image"
             height={750}
