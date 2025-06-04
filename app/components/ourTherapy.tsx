@@ -74,7 +74,7 @@ const ourTherapyRow2 = [
     title: "Synchronised Massage",
     description:
       "Two therapists, one rhythm—experience ultimate relaxation through harmonious, synchronised movements , mindful touch.",
-    pricing: "Starts From Just ₹2500",
+    pricing: "Starts From Just ₹3000",
   },
   {
     image: "/images/therapy-cards/sports.png",

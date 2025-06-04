@@ -109,7 +109,7 @@ export default function HomeCtc() {
           />
           <div className="homectc-overlay">
             <h1 className="homectc-overlay-heading">
-              Fruit Scrub Massage in Vellore - Glowing Skin with Nature&spos;s Touch
+              Fruit Scrub Massage in Vellore - Glowing Skin with Nature&apos;s Touch
             </h1>
             <p className="homectc-overlay-subheading">
               "Exfoliate, nourish, and renew your skin with a revitalising scrub

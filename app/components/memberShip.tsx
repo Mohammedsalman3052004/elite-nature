@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/member-ship.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const MemberShip = () => {
   return (
@@ -97,9 +98,12 @@ const MemberShip = () => {
                 </p>
               </div>
 
-              <div className="membership-card-content-button">
+              <Link
+                className="membership-card-content-button"
+                href="tel:7200555001"
+              >
                 <div className="membership-card-content-btn">Book Now</div>
-              </div>
+              </Link>
             </div>
           </div>
 
@@ -189,9 +193,12 @@ const MemberShip = () => {
                 </p>
               </div>
 
-              <div className="membership-card-content-button">
+              <Link
+                className="membership-card-content-button"
+                href="tel:7200555001"
+              >
                 <div className="membership-card-content-btn">Book Now</div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
