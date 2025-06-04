@@ -37,21 +37,21 @@ const Footer = () => {
         </div>
         <div className="footer-content">
           <p className="footer-content-heading">Contact</p>
-          <Link className="footer-content-links" href="tel:8056444650">
-            Cell : 80564 44650
+          <Link className="footer-content-links" href="tel:7200555001">
+            Cell : 72005 55001
           </Link>
           <Link
             className="footer-content-links"
-            href="mailto:elitenatural@gmail.com"
+            href="mailto:springdaysspa@gmail.com"
           >
-            Email : elitenatural@gmail.com
+            Email : springdaysspa@gmail.com
           </Link>
         </div>
         <div className="footer-content">
           <p className="footer-content-heading">Address</p>
           <Link className="footer-content-links-address" href="/">
-            No:53,APL Layout Extension, Venkatapuram Road, Pudhu Vasoor Road,
-            Alamelumangapuram, Vellore - 632009.
+            No:53,APL Layout Extension, Venkatapuram Road, Alamelumangapuram,
+            Vellore - 632009.
           </Link>
         </div>
       </div>
