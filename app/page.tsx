@@ -8,6 +8,7 @@ import OurPricing from "./components/ourPricing";
 import Booking from "./components/booking";
 import Navbar from "./components/Navbar";
 import Location from "./components/location";
+import ReviewSection from "./components/review";
 
 export default function SwiperComponent() {
   return (
@@ -20,6 +21,7 @@ export default function SwiperComponent() {
       <OurAmbiance />
       <MemberShip />
       <Location />
+      <ReviewSection />
       <Booking />
     </div>
   );

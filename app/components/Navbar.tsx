@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav-padding">
         <div className="nav-logo-div">
-          <Image src="/assets/logo.svg" alt="logo" height={75} width={75} />
+          <Image src="/logo.png" alt="logo" height={115} width={115} />
         </div>
 
         {/* Desktop Links */}
